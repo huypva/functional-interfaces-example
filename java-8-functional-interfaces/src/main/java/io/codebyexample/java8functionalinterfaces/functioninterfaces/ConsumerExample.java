@@ -9,7 +9,7 @@ import java.util.function.Consumer;
  */
 public class ConsumerExample extends AbtractExample {
 
-  List<String> list = Arrays.asList("a", "b", "c", "a1", "a2");
+  List<String> list = Arrays.asList("a", "b", "c", "d", "e");
 
   public ConsumerExample(String title) {
     super(title);

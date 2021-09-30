@@ -11,7 +11,7 @@ import java.util.stream.Stream;
  */
 public class FunctionExample extends AbtractExample {
 
-  List<String> list = Arrays.asList("a", "c", "B", "e", "g");
+  List<String> list = Arrays.asList("a", "c", "B", "D", "e");
 
   public FunctionExample(String title) {
     super(title);

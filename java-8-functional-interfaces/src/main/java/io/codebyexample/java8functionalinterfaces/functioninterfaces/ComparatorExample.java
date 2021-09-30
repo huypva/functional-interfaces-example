@@ -1,15 +1,16 @@
 package io.codebyexample.java8functionalinterfaces.functioninterfaces;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
-import java.util.function.Consumer;
 
 /**
  * @author huypva
  */
 public class ComparatorExample extends AbtractExample {
 
-  List<String> list = Arrays.asList("a", "b", "c", "a1", "a2");
+  List<Integer> list = Arrays.asList(1, 5, 2, 6, 3, 4, 7);
 
   public ComparatorExample(String title) {
     super(title);
@@ -17,20 +18,21 @@ public class ComparatorExample extends AbtractExample {
 
   @Override
   public void beforeJava8() {
-    list.forEach(new Consumer<String>() {
+    Collections.sort(list, new Comparator<Integer>() {
       @Override
-      public void accept(String s) {
-        System.out.print(s + "\t");
+      public int compare(Integer o1, Integer o2) {
+        return o1.compareTo(o2);
       }
     });
-    System.out.println();
+
+    System.out.println(list);
   }
 
   @Override
   public void java8() {
-    list.forEach(s -> System.out.print(s + "\t"));
-    System.out.println();
-  }
+    Collections.sort(list, (o1, o2) -> o1.compareTo(o2));
 
+    System.out.println(list);
+  }
 
 }

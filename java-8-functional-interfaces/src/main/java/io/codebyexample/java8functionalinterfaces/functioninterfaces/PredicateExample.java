@@ -11,7 +11,7 @@ import java.util.stream.Stream;
  */
 public class PredicateExample extends AbtractExample {
 
-  List<Integer> list = Arrays.asList(1, 4, 5, 1, 7, 8);
+  List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6);
 
   public PredicateExample(String title) {
     super(title);
@@ -44,6 +44,5 @@ public class PredicateExample extends AbtractExample {
     stream2.forEach(s -> System.out.print(s + "\t"));
     System.out.println();
   }
-
 
 }
