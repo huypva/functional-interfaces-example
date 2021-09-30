@@ -1,14 +1,14 @@
 The hello-world project
 
 <div align="center">
-    <img src="./assets/images/hello_world.png"/>
+    <img src="./assets/images/functional_interface.png"/>
 </div>
 
 
 ## Project structure
 ```
 .
-├── hello-world
+├── java-8-functional-interfaces
 │   ├── pom.xml
 │   ...
 ├── pom.xml
@@ -18,15 +18,46 @@ The hello-world project
 
 ## Start project
 
-```shell
+```shell script
 $ mvn clean package
-$ java -jar hello-world/target/hello-world-0.0.1-SNAPSHOT.jar
+$ java -jar ./java-8-functional-interfaces/target/java-8-functional-interfaces-0.0.1-SNAPSHOT.jar
 ```
 
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+Output:
+
+```shell script
+=== Test Consumer ===
+Before Java 8:
+a       b       c       d       e       
+
+Java 8:
+a       b       c       d       e       
+=== Test Comparator ===
+Before Java 8:
+[1, 2, 3, 4, 5, 6, 7]
+
+Java 8:
+[1, 2, 3, 4, 5, 6, 7]
+=== Test Function ===
+Before Java 8:
+A       C       B       D       E       
+
+Java 8:
+A       C       B       D       E       
+=== Test Predicate ===
+Before Java 8:
+1       3       5       
+
+Java 8:
+1       3       5       
+=== Test Supplier ===
+Before Java 8:
+Example
+
+Java 8:
+Example
+=== Test MethodReference ===
+a-b
 ```
 
 ## Contribute
