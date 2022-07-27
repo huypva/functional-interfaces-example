@@ -1,4 +1,4 @@
-package io.codebyexample.java8functionalinterfaces.methodreference;
+package io.github.huypva.functionalinterfaces.methodreference;
 
 /**
  * @author huypva

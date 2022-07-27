@@ -1,16 +1,18 @@
-package io.codebyexample.java8functionalinterfaces.functioninterfaces;
+package io.github.huypva.functionalinterfaces.functioninterfaces;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import lombok.Getter;
 
 /**
  * @author huypva
  */
+@Getter
 public class ComparatorExample extends AbtractExample {
 
-  List<Integer> list = Arrays.asList(1, 5, 2, 6, 3, 4, 7);
+  private List<Integer> list = Arrays.asList(1, 5, 2, 6, 3, 4, 7);
 
   public ComparatorExample(String title) {
     super(title);

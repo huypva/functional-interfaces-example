@@ -1,5 +1,3 @@
-The hello-world project
-
 <div align="center">
     <img src="./assets/images/functional_interface.png"/>
 </div>
@@ -8,7 +6,7 @@ The hello-world project
 ## Project structure
 ```
 .
-├── java-8-functional-interfaces
+├── functional-interfaces
 │   ├── pom.xml
 │   ...
 ├── pom.xml

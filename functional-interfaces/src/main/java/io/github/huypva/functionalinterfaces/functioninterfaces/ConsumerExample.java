@@ -1,15 +1,17 @@
-package io.codebyexample.java8functionalinterfaces.functioninterfaces;
+package io.github.huypva.functionalinterfaces.functioninterfaces;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import lombok.Getter;
 
 /**
  * @author huypva
  */
+@Getter
 public class ConsumerExample extends AbtractExample {
 
-  List<String> list = Arrays.asList("a", "b", "c", "d", "e");
+  private List<String> list = Arrays.asList("a", "b", "c", "d", "e");
 
   public ConsumerExample(String title) {
     super(title);

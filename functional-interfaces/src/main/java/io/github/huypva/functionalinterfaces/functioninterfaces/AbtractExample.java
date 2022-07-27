@@ -1,4 +1,4 @@
-package io.codebyexample.java8functionalinterfaces.functioninterfaces;
+package io.github.huypva.functionalinterfaces.functioninterfaces;
 
 /**
  * @author huypva
