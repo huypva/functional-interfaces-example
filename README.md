@@ -16,14 +16,25 @@
 
 ## Start project
 
+- Build project
+
 ```shell script
-$ mvn clean package
-$ java -jar ./java-8-functional-interfaces/target/java-8-functional-interfaces-0.0.1-SNAPSHOT.jar
+$ ./mvnw clean package
+...
+[INFO] 
+[INFO] Functional Interfaces .............................. SUCCESS [  7.400 s]
+[INFO] Parent ............................................. SUCCESS [  0.014 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.575 s
+[INFO] Finished at: 2022-07-27T08:44:34+07:00
+[INFO] ------------------------------------------------------------------------
 ```
 
-Output:
-
+- Run project
 ```shell script
+$java -jar ./functional-interfaces/target/functional-interfaces-0.0.1-SNAPSHOT.jar 
 === Test Consumer ===
 Before Java 8:
 a       b       c       d       e       
@@ -57,7 +68,5 @@ Example
 === Test MethodReference ===
 a-b
 ```
-
-## Contribute
 
 ## Reference
