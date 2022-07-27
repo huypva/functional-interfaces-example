@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./assets/images/functional_interface.png"/>
+    <img src="./assets/images/functional_interfaces.png"/>
 </div>
 
 
